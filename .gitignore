@@ -1,0 +1,12 @@
+
+# java build target directory
+# This is where the compiled classes and other build artifacts are stored.
+target/
+
+# VSCode workspace settings
+# This directory contains user-specific settings and configurations for the VSCode editor.
+.vscode/
+
+# Development environment files
+# These files are used to configure the development environment and should not be included in version control.
+.dev/
