@@ -34,4 +34,5 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_ORGANIZATION: ${{ secrets.SONAR_ORGANIZATION }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=cole-gannaway-sonarcloud-enterprise_Java-Web-App -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
